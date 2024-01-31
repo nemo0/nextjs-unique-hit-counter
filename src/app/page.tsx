@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -107,6 +108,13 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+      </div>
+      <div className="flex justify-between mt-4 gap-x-36">
+        <Link href="/page-1">Go to Page 1</Link>
+
+        <Link href="/page-2">Go to Page 2</Link>
+
+        <Link href="/page-3">Go to Page 3</Link>
       </div>
     </main>
   );
