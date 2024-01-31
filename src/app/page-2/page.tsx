@@ -1,3 +1,4 @@
+import Links from "@/components/links";
 import Link from "next/link";
 import React from "react";
 
@@ -7,13 +8,7 @@ export default function Page() {
       <div className="flex justify-center items-center h-2/3">
         <h1 className="text-4xl font-bold">Page 2</h1>
       </div>
-      <div className="flex justify-between mt-4 h-1/3">
-        <Link href="/page-1">Go to Page 1</Link>
-
-        <Link href="/page-2">Go to Page 2</Link>
-
-        <Link href="/page-3">Go to Page 3</Link>
-      </div>
+      <Links />
     </div>
   );
 }
